@@ -1,0 +1,30 @@
+{
+  "scripts": {
+    "test": "echo \" whatever\" ",
+    "install:frontend": "cd udagram-frontend && npm install",
+    "install:backend": "cd udagram-api && npm install",
+    "test:frontend": "export NODE_OPTIONS=--openssl-legacy-provider && cd udagram-frontend && npm test",
+    "build:frontend": "export NODE_OPTIONS=--openssl-legacy-provider && cd udagram-frontend && npm run build",
+    "build:backend": "cd udagram-api && npm run build",
+    "deploy:frontend": "cd udagram-frontend && npm run deploy-sh",
+    "deploy:backend": "cd udagram-api && npm run deploy-sh"
+  },
+  "devDependencies": {
+    "@angular/cli": "~8.3.25",
+    "@angular/compiler": "~8.2.14",
+    "@angular/compiler-cli": "~8.2.14"
+  },
+  "name": "udagram",
+  "description": "http://udacity-dom.s3-website.eu-central-1.amazonaws.com/",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dom-the-dev/udacity-hosting-fullstack-app.git"
+  },
+  "author": "Dominik Amrugiewicz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dom-the-dev/udacity-hosting-fullstack-app/issues"
+  },
+  "homepage": "https://github.com/dom-the-dev/udacity-hosting-fullstack-app#readme"
+}
