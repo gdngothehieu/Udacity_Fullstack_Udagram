@@ -6,8 +6,6 @@ A newly developed Full-Stack application built for a retailer and deployed to AW
 
 The udagram application is a fairly simple application that includes all the major components of a Full-Stack web application.
 
-
-
 ### Dependencies
 
 ```
@@ -55,7 +53,7 @@ The e2e tests are using Protractor and Jasmine.
 
 ## Running App
 
-- [Access the application](http://udagram593666028033.s3-website-us-east-1.amazonaws.com/)
+- [Access the application](http://aws-bucket-udagram-hieunt114.s3-website-us-east-1.amazonaws.com/home)
 
 ![screenshot](docs/pictures/app.jpg)
 

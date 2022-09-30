@@ -48,9 +48,11 @@ jobs:
           command: |
             echo "Build the backend API"
             npm run api:build
+  # deploy step will run only after manual approval
   deploy:
     docker:
       - image: "cimg/base:stable"
+      # more setup needed for aws, node, elastic beanstalk
     steps:
       - node/install:
           node-version: "14.15"
@@ -100,6 +102,14 @@ workflows:
   udagram:
     jobs:
       - build
-      - deploy:
+      - hold:
+          filters:
+            branches:
+              only:
+                - main
+          type: approval
           requires:
             - build
+      - deploy:
+          requires:
+            - hold
