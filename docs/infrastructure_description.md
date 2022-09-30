@@ -8,26 +8,25 @@ The application have `udagram/udagram-front` for the frontend and `udagram/udagr
 
 ## Infrastructure Diagram
 
-![screenshot](pictures/udagram.jpg)
+![screenshots](screenshots/udagram-app.png)
 
-## Screenshots 
-
+## screenshotss
 
 ### RDS
 
-![screenshot](pictures/rds.jpg)
+![screenshots](screenshots/database.png)
 
 ### Elastic Beanstalk
 
-![screenshot](pictures/ebs.jpg)
+![screenshots](screenshots/ebs.jpg)
 
 ### S3
 
-![screenshot](pictures/s3Front.jpg)
+![screenshots](screenshots/s3-bucket.png)
 
 ### Pipeline
 
-![screenshot](pictures/env.jpg)
-![screenshot](pictures/pipeline.jpg)
-![screenshot](pictures/build.jpg)
-![screenshot](pictures/deploy.jpg)
+![screenshots](screenshots/environment.png)
+![screenshots](screenshots/pipeline.png)
+![screenshots](screenshots/circle-ci-build.png)
+![screenshots](screenshots/circle-ci-deploy.png)
