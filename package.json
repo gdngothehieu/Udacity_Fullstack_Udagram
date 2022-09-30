@@ -1,30 +1,16 @@
 {
-  "scripts": {
-    "test": "echo \" whatever\" ",
-    "install:frontend": "cd udagram-frontend && npm install",
-    "install:backend": "cd udagram-api && npm install",
-    "test:frontend": "export NODE_OPTIONS=--openssl-legacy-provider && cd udagram-frontend && npm test",
-    "build:frontend": "export NODE_OPTIONS=--openssl-legacy-provider && cd udagram-frontend && npm run build",
-    "build:backend": "cd udagram-api && npm run build",
-    "deploy:frontend": "cd udagram-frontend && npm run deploy-sh",
-    "deploy:backend": "cd udagram-api && npm run deploy-sh"
-  },
-  "devDependencies": {
-    "@angular/cli": "~8.3.25",
-    "@angular/compiler": "~8.2.14",
-    "@angular/compiler-cli": "~8.2.14"
-  },
-  "name": "udagram",
-  "description": "http://udagram-api-hieunt114-dom.s3-website.eu-central-1.amazonaws.com/",
-  "version": "1.0.0",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dom-the-dev/udagram-api-hieunt114-hosting-fullstack-app.git"
-  },
-  "author": "Dominik Amrugiewicz",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dom-the-dev/udagram-api-hieunt114-hosting-fullstack-app/issues"
-  },
-  "homepage": "https://github.com/dom-the-dev/udagram-api-hieunt114-hosting-fullstack-app#readme"
+    "scripts": {
+        "frontend:install": "cd udagram/udagram-frontend && npm install -f",
+        "frontend:start": "cd udagram/udagram-frontend && npm run start",
+        "frontend:build": "cd udagram/udagram-frontend && npm run build",
+        "frontend:test": "cd udagram/udagram-frontend && npm run test",
+        "frontend:e2e": "cd udagram/udagram-frontend && npm run e2e",
+        "frontend:lint": "cd udagram/udagram-frontend && npm run lint",
+        "frontend:deploy": "cd udagram/udagram-frontend && npm run deploy",
+        "api:install": "cd udagram/udagram-api && npm install .",
+        "api:build": "cd udagram/udagram-api && npm run build",
+        "api:start": "cd udagram/udagram-api && npm run dev",
+        "api:deploy": "cd udagram/udagram-api && npm run deploy",
+        "deploy": "npm run api:deploy && npm run frontend:deploy"
+    }
 }
