@@ -1,10 +1,10 @@
 # Pipeline
 
-The application use the integration of CircleCI with github, after each commit on the master branch, it will trigger CircleCI to deploy the application on AWS.
+CircleCI will trigger a build and deploy if a commit is pushed to main branch
 
-## Steps 
+## Steps
 
-![screenshot](pictures/pipelineschema.jpg)
+![screenshot](screenshots/pipeline-schema.png)
 
 ## CircleCI and AWS :
 
@@ -22,11 +22,10 @@ The application use the integration of CircleCI with github, after each commit o
 
 - Need manual approval on CircleCI to trigger deployement
 
-### Deploy 
+### Deploy
 
 - Setup AWS CLI
 - Setup AWS Access Key ID
 - Setup Elastic Beanstalk CLI
 - Deploy backend
 - Deploy frontend
-
