@@ -161,11 +161,9 @@ jobs:
       - setup
       - run:
           command: |
-             eb deploy Udacity-env
+            eb deploy udagram-eb
           name: EB Deploy
           working_directory: <<parameters.app-dir>>
-
-
 
 workflows:
   workflow:
