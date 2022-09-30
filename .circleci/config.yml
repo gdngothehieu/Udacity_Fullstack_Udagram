@@ -161,7 +161,7 @@ jobs:
       - setup
       - run:
           command: |
-            eb deploy udagram-eb
+            eb deploy Udagrameb-env
           name: EB Deploy
           working_directory: <<parameters.app-dir>>
 

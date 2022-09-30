@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-eb deploy udagram-eb
+eb deploy Udagrameb-env
