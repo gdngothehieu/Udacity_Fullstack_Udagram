@@ -161,7 +161,7 @@ jobs:
       - setup
       - run:
           command: |
-            eb deploy udagram-api-dev-hieunt114
+            npm run deploy-sh
           name: EB Deploy
           working_directory: <<parameters.app-dir>>
 
