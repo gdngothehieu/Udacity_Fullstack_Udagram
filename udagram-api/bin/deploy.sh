@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-eb deploy Udagrameb-env
+eb deploy udagram-api-dev-hieunt114
