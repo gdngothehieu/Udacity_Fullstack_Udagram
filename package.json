@@ -15,16 +15,16 @@
     "@angular/compiler-cli": "~8.2.14"
   },
   "name": "udagram",
-  "description": "http://udacity-dom.s3-website.eu-central-1.amazonaws.com/",
+  "description": "http://udagram-api-hieunt114-dom.s3-website.eu-central-1.amazonaws.com/",
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dom-the-dev/udacity-hosting-fullstack-app.git"
+    "url": "git+https://github.com/dom-the-dev/udagram-api-hieunt114-hosting-fullstack-app.git"
   },
   "author": "Dominik Amrugiewicz",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dom-the-dev/udacity-hosting-fullstack-app/issues"
+    "url": "https://github.com/dom-the-dev/udagram-api-hieunt114-hosting-fullstack-app/issues"
   },
-  "homepage": "https://github.com/dom-the-dev/udacity-hosting-fullstack-app#readme"
+  "homepage": "https://github.com/dom-the-dev/udagram-api-hieunt114-hosting-fullstack-app#readme"
 }

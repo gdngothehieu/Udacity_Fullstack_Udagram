@@ -1,11 +1,14 @@
 branch-defaults:
   default:
-    environment: null
+    environment: udagram-api-dev-hieunt114
     group_suffix: null
 deploy:
   artifact: ./Archive.zip
 environment-defaults:
-  Udacity-env:
+  udagram-api-dev-hieunt114:
+    branch: null
+    repository: null
+  udagram-api-dev-hieunt114:
     branch: null
     repository: null
 global:
