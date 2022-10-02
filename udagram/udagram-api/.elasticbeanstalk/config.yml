@@ -1,19 +1,30 @@
 branch-defaults:
   default:
-    environment: udagram-api-dev-hieunt114
+    environment: Udagram-env
+    group_suffix: null
+  main:
+    environment: udagram-hieunt114-api-dev
+    group_suffix: null
+deploy:
+  artifact: ./www/Archive.zip
 environment-defaults:
-  udagram-api-dev-hieunt114:
+  Udagram-env:
+    branch: null
+    repository: null
+  udagram-hieunt114-api-dev:
     branch: null
     repository: null
 global:
-  application_name: udagram-api-hieunt114
+  application_name: udagram-hieunt114-api
+  branch: null
   default_ec2_keyname: null
-  default_platform: Node.js 16 running on 64bit Amazon Linux 2
+  default_platform: Node.js 14
   default_region: us-east-1
   include_git_submodules: true
   instance_profile: null
   platform_name: null
   platform_version: null
   profile: eb-cli
-  sc: null
+  repository: null
+  sc: git
   workspace_type: Application
