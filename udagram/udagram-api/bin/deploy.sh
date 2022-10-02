@@ -1,5 +1,5 @@
 cd www/
-eb init udagram-api-dev-app --platform node.js-14 --region us-east-1
+eb init udagram-api-dev --platform node.js-14 --region us-east-1
 eb create udagram-main-api-dev
 eb use udagram-main-api-dev
 eb setenv AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID 
