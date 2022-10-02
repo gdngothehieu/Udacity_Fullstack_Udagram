@@ -55,7 +55,7 @@ The e2e tests are using Protractor and Jasmine.
 
 - [Access the application](http://aws-bucket-udagram-hieunt114.s3-website-us-east-1.amazonaws.com)
 
-![screenshot](docs/pictures/app.jpg)
+![screenshot](docs/screenshots/udagram-app.png)
 
 ## Built With
 

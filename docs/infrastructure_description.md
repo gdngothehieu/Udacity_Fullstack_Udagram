@@ -18,7 +18,7 @@ The application have `udagram/udagram-front` for the frontend and `udagram/udagr
 
 ### Elastic Beanstalk
 
-![screenshots](screenshots/ebs.jpg)
+![screenshots](screenshots/ebs.png)
 
 ### S3
 
